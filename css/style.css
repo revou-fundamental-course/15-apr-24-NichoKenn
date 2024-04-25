@@ -1,1 +1,124 @@
 /* Ini File css */
+
+main {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.main-title {
+    text-align: center;
+    font-family: 'arial black';
+    border: 2px #F2DEA2 solid;
+    background-color: #F2DEA2;
+    border-radius: 4px;
+    color: #fffbe2;
+    -webkit-text-stroke: 1px black;
+}
+
+.main-section {
+    padding: 16px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 4px;
+    border: 2px #F2DEA2 solid;
+    font-family: arial;
+}
+
+.section-celcius {
+    padding-top: 16px;
+}
+
+.section-fahrenheit {
+    padding-top: 16px;
+}
+.alert-fahrenheit {
+    color: red;
+    font-size: x-small;
+}
+
+.section-result {
+    padding-top: 16px;
+}
+
+.section-explanation {
+    padding-top: 16px;
+}
+textarea {
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: #F2DEA2;
+    color: darkgoldenrod;
+    font-size: 16px;
+    width: 100%;
+    height: 32px;
+    resize: none;
+}
+
+#Temp-Calculation {
+    height: 80px;
+}
+
+hr {
+    height: 2px;
+    background-color: #F2DEA2;
+    border: none;
+}
+
+.formula-s {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.formula-s>sub {
+    font-style: normal;
+}
+
+.container-button {
+    padding-top: 8px;
+}
+
+button {
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: arial;
+}
+
+#button-convert {
+    background-color: forestgreen;
+    margin-right: 8px;
+}
+
+#button-reset {
+    background-color: royalblue;
+    margin-right: 8px;
+}
+
+#button-reverse {
+    background-color: palevioletred;
+}
+
+.sign-s {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#f-to-c {
+    display: none;
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
+
